@@ -1,0 +1,26 @@
+#content{
+
+}
+
+h2{
+    font-weight: 1000;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#content a{
+    transition: all 300ms;
+    font-size: 1.5rem;
+    padding: 8px;
+    color: white;
+}
+
+#content a:hover{
+    transition: all 300ms;
+}
+
+.concerts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,49 @@
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+main{
+    display: grid;
+    grid-template-rows:1fr 3fr 0fr 2.5fr 2fr;
+}
+
+nav{
+    display: flex;
+    margin:auto;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 150ms;
+    margin-bottom: 0.3rem;
+}
+
+a:hover{
+    font-size: 1.7rem;
+    margin-bottom: 0;
+    transition: all 300ms;
+}
+
+#resauxSociaux{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#resauxSociaux img{
+    height: 8vh;
+    transition: all 150ms;
+}
+
+#resauxSociaux img:hover{
+    height: 9vh;
+    transition: all 300ms;
+}

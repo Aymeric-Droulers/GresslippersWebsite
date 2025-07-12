@@ -1,0 +1,28 @@
+html{
+    background-color: black;
+    background-image: none;
+}
+#backLink{
+    color:white;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead{
+    border-bottom: solid 1px white;
+}
+#addConcertRow{
+    border-bottom: solid 1px white;
+}
+
+td a{
+    color: white;
+    text-decoration: none;
+}
+
+td a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+}
+
+#content{
+    width: 90%;
+    margin: auto;
+}
+
+#people{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.peopleDiv{
+    width: 15%;
+    height: 300px;
+    background-color: darkgray;
+    border-radius: 16px;
+}
+
+.peopleDiv:hover{
+    margin-top: -16px;
+}
+
+
+
+/*----------------------- People div ---------------*/
+.peopleSection{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.95);
+    justify-content: space-evenly;
+    border-radius: 32px;
+    position: fixed;
+    left: 5%;
+    right: 5%;
+    top: 5%;
+    width: 90%;
+    bottom: 5%;
+}
+
+.peopleSection #left{
+    width: 40%;
+}
+
+.peopleSection #right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.peopleSection #right img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+}

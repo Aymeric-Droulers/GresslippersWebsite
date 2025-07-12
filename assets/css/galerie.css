@@ -1,0 +1,28 @@
+#content{
+    width: 90%;
+    margin: auto;
+}
+
+.grid {
+    max-width: 100vw;
+    margin: 0 auto;
+}
+
+.grid-item {
+    width: 25vw;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 16px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+}

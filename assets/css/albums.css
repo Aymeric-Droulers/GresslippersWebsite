@@ -1,0 +1,25 @@
+.album{
+    width: 96%;
+    display: flex;
+    padding:2%;
+
+}
+
+.album #content{
+    width: 48%;
+}
+
+.album #albumVideo{
+    width: 48%;
+    padding: 5%;
+}
+
+.listen-link{
+    font-size:1.3rem;
+    font-weight: 800;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+    display: block;
+    color: white;
+}

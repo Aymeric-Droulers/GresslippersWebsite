@@ -1,0 +1,40 @@
+html{
+    background-color: black;
+    background-image: none;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+}
+
+#backLink{
+    color:white;
+}
+
+#editButton{
+    width: 50%;
+}
+
+#sectionLeft{
+    width:40%;
+}
+#sectionRight{
+    width: 60%;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead{
+    border-bottom: solid 1px white;
+}
+
+table a{
+    color: white;
+
+}

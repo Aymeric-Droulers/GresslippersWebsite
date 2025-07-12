@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Krona+One&display=swap');
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+html {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: 0% 30%;
+    background-color: rgba(0, 0, 0, 0.83);
+
+    color: white;
+    font-size: clamp(14px, 16px, 18px);
+
+    height: 100vh;
+}
+
+body{
+    height:100%;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem
+}
+
+
+/*------Header---------*/
+
+header{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #212121;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+#headerAccueilLink{
+    font-size: 3rem;
+}
+
+#headerLinks a{
+    font-size: 2rem;
+}
+
+
+/*------Footer-------*/
+
+footer{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #212121;
+
+}
+
+footer #resauxSociaux{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+footer #resauxSociaux img{
+    height: 8vh;
+    padding: 0.5vh;
+    transition: all 150ms;
+}
+
+footer #resauxSociaux img:hover{
+    padding: 0.2vh;
+    height: 8.3vh;
+    transition: all 300ms;
+}
+
+footer #right{
+    display: flex;
+    flex-direction: column;
+}
+
+footer #right a{
+    text-decoration:none;
+    color: white;
+    padding-bottom: 4px;
+}
+
+footer #right a:hover{
+    text-decoration: underline;
+}
